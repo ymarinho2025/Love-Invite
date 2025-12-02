@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para a Lidi ❤️</title>
+    <link rel="stylesheet" href="/src/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div id="telaPedido">
+            <div class="gif-container">
+                <img src="https://media.tenor.com/pmDABQ5c8ZwAAAAi/sappy-sappy-seals.gif" alt="Gif fofo">
+            </div>
+            
+            <h1>Lidi, quer namorar comigo?</h1>
+            
+            <div class="btn-container">
+                <button id="btnSim">Sim!</button>
+                <button id="btnNao">Não</button>
+            </div>
+        </div>
+
+        <div id="mensagemFinal" class="hidden">
+            <div class="gif-container">
+                <img src="https://media.tenor.com/ivKWdfdbV3EAAAAi/goma-and-peach-cat-love.gif" alt="Amor">
+            </div>
+            <h1>Eu te amo, Lidi! ❤️</h1>
+            <p>Você me faz a pessoa mais feliz do mundo.</p>
+        </div>
+
+        <div class="music-player">
+            <span class="music-label">Chester Bennington - I Love You 🎵</span>
+            <audio id="audioPlayer" controls loop>
+                <source src="musica.mp3" type="audio/mpeg">
+                Seu navegador não suporta áudio.
+            </audio>
+        </div>
+    </div>
+
+    <script src="/src/script.js"></script>
+</body>
+
+</html>
